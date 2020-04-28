@@ -23,7 +23,8 @@ from django.conf import settings
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('pages.urls')),
-    path('contact/$', include('contact.urls')),
+    path('', include('contact.urls')),
+    path('', include('pwa.urls')),
     #u saw what happened here?
     #yt means i shouldnt leave the main path empty?
     #no look when i wrote 'test' what it does is it lets url  path('', include('pages.urls')), 
