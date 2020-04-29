@@ -140,10 +140,10 @@ STATICFILES_DIRS = [
 
     os.path.join(BASE_DIR, 'static'),
 
-# ]
+]
 
 
-PWA_APP_NAME = 'pwa'
+PWA_APP_NAME = 'My App'
 PWA_APP_DESCRIPTION = "My app description"
 PWA_APP_THEME_COLOR = '#0A0302'
 PWA_APP_BACKGROUND_COLOR = '#ffffff'
