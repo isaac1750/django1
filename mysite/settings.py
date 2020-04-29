@@ -143,7 +143,7 @@ STATICFILES_DIRS = [
 # ]
 
 
-PWA_APP_NAME = 'mysite'
+PWA_APP_NAME = 'pwa'
 PWA_APP_DESCRIPTION = "My app description"
 PWA_APP_THEME_COLOR = '#0A0302'
 PWA_APP_BACKGROUND_COLOR = '#ffffff'
